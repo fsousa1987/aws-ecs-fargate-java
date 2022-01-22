@@ -41,6 +41,7 @@ public class Service01Stack extends Stack {
                                                 .streamPrefix("Service01-github")
                                                 .build()))
                                         .build())
+                        .publicLoadBalancer(true)
                         .build();
     }
 }
